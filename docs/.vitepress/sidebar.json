@@ -1,0 +1,144 @@
+[
+ {
+  "text": "Blockchain",
+  "items": [
+   {
+    "text": "ERC 20",
+    "link": "erc-20.md"
+   },
+   {
+    "text": "ERC 721",
+    "link": "erc-721.md"
+   }
+  ]
+ },
+ {
+  "text": "CSS",
+  "items": [
+   {
+    "text": "CSS line-height",
+    "link": "css-line-height.md"
+   }
+  ]
+ },
+ {
+  "text": "Devops",
+  "items": [
+   {
+    "text": "K8S",
+    "link": "K8S.md"
+   },
+   {
+    "text": "AWS ALB + Cognito",
+    "link": "aws-alb-cognito.md"
+   },
+   {
+    "text": "AWS CDK",
+    "link": "aws-cdk.md"
+   }
+  ]
+ },
+ {
+  "text": "Golang",
+  "items": [
+   {
+    "text": "Go methods",
+    "link": "go-methods.md"
+   },
+   {
+    "text": "Race condition",
+    "link": "race-condition.md"
+   },
+   {
+    "text": "Why I choose go?",
+    "link": "why-i-choose-go.md"
+   }
+  ]
+ },
+ {
+  "text": "JavaScript",
+  "items": [
+   {
+    "text": "Axios mockk test",
+    "link": "axios-mock-test.md"
+   }
+  ]
+ },
+ {
+  "text": "Personal",
+  "items": [
+   {
+    "text": "2017: A year in review",
+    "link": "2017-year-in-review.md"
+   },
+   {
+    "text": "2018: A year in review",
+    "link": "2018-year-in-review.md"
+   },
+   {
+    "text": "2019: A year in review",
+    "link": "2019-year-in-review.md"
+   },
+   {
+    "text": "2020: A year in review",
+    "link": "2020-year-in-review.md"
+   },
+   {
+    "text": "2021: A year in review",
+    "link": "2021-year-in-review.md"
+   },
+   {
+    "text": "2022: A year in review",
+    "link": "2022-year-in-review.md"
+   },
+   {
+    "text": "About me",
+    "link": "about-me.md"
+   }
+  ]
+ },
+ {
+  "text": "Product",
+  "items": [
+   {
+    "text": "A MVP is not a product it's a process",
+    "link": "a-mvp-is-not-a-product.md"
+   },
+   {
+    "text": "Project mananger vs project owner",
+    "link": "project-manager-vs-project-owner.md"
+   }
+  ]
+ },
+ {
+  "text": "Programming",
+  "items": [
+   {
+    "text": "Authorization Authentication standards",
+    "link": "authorization-authentication-standards.md"
+   },
+   {
+    "text": "Functional programming",
+    "link": "functional-programming.md"
+   }
+  ]
+ },
+ {
+  "text": "React",
+  "items": [
+   {
+    "text": "RTK Query",
+    "link": "rtk-query.md"
+   }
+  ]
+ },
+ {
+  "text": "Vim",
+  "items": [
+   {
+    "text": "Vim functions and variables",
+    "link": "vim-functions-variables.md"
+   }
+  ]
+ }
+]
