@@ -5,7 +5,7 @@ import sidebar from "./sidebar.json";
 export default defineConfig({
   title: "Digital Garden",
   titleTemplate: `Thien's Digital Garden`,
-  description: "As a replacement for Obsidian Publish",
+  description: "Think and write simply",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "thien.dev", link: "https://thien.dev" }],

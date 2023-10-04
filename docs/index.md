@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "🏡 Digital Garden"
-  tagline: "As a replacement for Obsidian Publish"
+  tagline: "Think and write simply"
   actions:
     - theme: brand
       text: Explore
