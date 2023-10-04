@@ -2,14 +2,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import matter from "gray-matter";
-
-interface SidebarItem {
-  text: string;
-  items: Array<{
-    text: string;
-    link: string;
-  }>;
-}
+import { DefaultTheme } from "vitepress";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,7 +15,10 @@ const isObjectEmpty = (obj: Record<string, any>): boolean => {
   return Object.keys(obj).length === 0;
 };
 
-const sortSidebar = (a: SidebarItem, b: SidebarItem) => {
+const sortSidebar = (
+  a: DefaultTheme.SidebarItem,
+  b: DefaultTheme.SidebarItem,
+) => {
   const textA = a.text.toLowerCase();
   const textB = b.text.toLowerCase();
   if (textA < textB) return -1;
@@ -31,7 +27,7 @@ const sortSidebar = (a: SidebarItem, b: SidebarItem) => {
 };
 
 const dirs = fs.readdirSync(path.resolve(__dirname, "../docs"));
-const sidebar: Array<SidebarItem> = [];
+const sidebar: Array<DefaultTheme.SidebarItem> = [];
 dirs.reduce((acc, curr) => {
   if (!isMarkdownFile(curr)) return acc;
 
@@ -49,10 +45,14 @@ dirs.reduce((acc, curr) => {
   };
 
   const found = acc.find(({ text }) => text === category);
-  if (found) {
+  if (found && found.items) {
     found.items.push(item);
   } else {
-    acc.push({ text: category, items: [item] });
+    acc.push({
+      text: category,
+      items: [item],
+      collapsed: true,
+    });
   }
 
   return acc;

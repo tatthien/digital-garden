@@ -10,7 +10,8 @@
     "text": "ERC 721",
     "link": "erc-721.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "CSS",
@@ -19,7 +20,8 @@
     "text": "CSS line-height",
     "link": "css-line-height.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "Database",
@@ -28,7 +30,8 @@
     "text": "Database useful queries",
     "link": "database-useful-queries.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "Devops",
@@ -49,7 +52,8 @@
     "text": "Kubernetes",
     "link": "kubernetes.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "Golang",
@@ -82,7 +86,8 @@
     "text": "Why I choose go?",
     "link": "why-i-choose-go.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "JavaScript",
@@ -91,7 +96,8 @@
     "text": "Axios mock test",
     "link": "axios-mock-test.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "Linux",
@@ -100,7 +106,8 @@
     "text": "Linux commands",
     "link": "linux-commands.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "Personal",
@@ -133,7 +140,8 @@
     "text": "About me",
     "link": "about-me.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "Product",
@@ -146,7 +154,8 @@
     "text": "Project mananger vs project owner",
     "link": "project-manager-vs-project-owner.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "Programming",
@@ -159,7 +168,8 @@
     "text": "Functional programming",
     "link": "functional-programming.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "React",
@@ -168,7 +178,8 @@
     "text": "RTK Query",
     "link": "rtk-query.md"
    }
-  ]
+  ],
+  "collapsed": true
  },
  {
   "text": "Vim",
@@ -177,6 +188,7 @@
     "text": "Vim functions and variables",
     "link": "vim-functions-variables.md"
    }
-  ]
+  ],
+  "collapsed": true
  }
 ]
