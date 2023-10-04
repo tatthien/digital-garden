@@ -18,5 +18,9 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/tatthien/digital-garden" },
       { icon: "twitter", link: "https://twitter.com/hey_thien" },
     ],
+
+    search: {
+      provider: "local",
+    },
   },
 });
