@@ -9,3 +9,7 @@
 .VPSidebar .group + .group {
   padding-top: 0.25rem;
 }
+
+.VPContent .prev-next {
+  display: none;
+}
