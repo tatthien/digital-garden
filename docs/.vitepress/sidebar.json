@@ -26,7 +26,7 @@
   "items": [
    {
     "text": "Database useful queries",
-    "link": "Snippets.md"
+    "link": "database-useful-queries.md"
    }
   ]
  },
@@ -34,16 +34,20 @@
   "text": "Devops",
   "items": [
    {
-    "text": "K8S",
-    "link": "K8S.md"
-   },
-   {
     "text": "AWS ALB + Cognito",
     "link": "aws-alb-cognito.md"
    },
    {
     "text": "AWS CDK",
     "link": "aws-cdk.md"
+   },
+   {
+    "text": "AWS EKS + Kubeconfig",
+    "link": "kubeconfig-eks.md"
+   },
+   {
+    "text": "Kubernetes",
+    "link": "kubernetes.md"
    }
   ]
  },
@@ -51,8 +55,20 @@
   "text": "Golang",
   "items": [
    {
+    "text": "Ensure a type implements an interface",
+    "link": "ensure-a-type-implements-an-interface-in-go.md"
+   },
+   {
+    "text": "Select statement in Golang",
+    "link": "go-for-select.md"
+   },
+   {
     "text": "Go methods",
     "link": "go-methods.md"
+   },
+   {
+    "text": "Measure execution time",
+    "link": "measure-execution-time-in-go.md"
    },
    {
     "text": "Race condition",
