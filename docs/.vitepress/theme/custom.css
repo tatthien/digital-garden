@@ -1,0 +1,11 @@
+.VPSidebar .VPSidebarItem.collapsed.level-0 {
+  padding-bottom: 0.25rem;
+}
+
+.VPSidebar .VPSidebarItem.level-0 {
+  padding-bottom: 1rem;
+}
+
+.VPSidebar .group + .group {
+  padding-top: 0.25rem;
+}
