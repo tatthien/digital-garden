@@ -8,10 +8,7 @@ export default defineConfig({
   description: "As a replacement for Obsidian Publish",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Introduction", link: "/introduction" },
-    ],
+    nav: [{ text: "thien.dev", link: "https://thien.dev" }],
 
     sidebar,
 
