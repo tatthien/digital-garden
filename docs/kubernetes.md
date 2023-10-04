@@ -1,9 +1,9 @@
 ---
-title: K8S
+title: Kubernetes
 category: Devops
 ---
 
-# K8S
+# Kubernetes
 
 Pod -> Replica set -> Deployment (stateless): ngang hàng, không lưu trữ data
 Pod -> Replica set -> Stateful set: phụ thuộc 1 nơi lưu tru
