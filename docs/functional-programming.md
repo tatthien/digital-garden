@@ -5,12 +5,12 @@ category: Programming
 
 # Functional programming
 
-4 concepts
+There are 4 concepts in functional programming:
 
-- Pure functions and idempotent
-- Side effects
-- Function composition
-- Shared state and immutable data
+1. Pure functions and idempotent
+2. Side effects
+3. Function composition
+4. Shared state and immutable data
 
 ## Idempotent
 

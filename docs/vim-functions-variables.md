@@ -3,9 +3,9 @@ title: Vim functions and variables
 category: Vim
 ---
 
-# Vim
+# Vim functions and variables
 
-Functions
+## Functions
 
 ```vim
 function x()
@@ -13,7 +13,7 @@ function x()
 endfunction
 ```
 
-Variables scopes
+## Variables scopes
 
 - g: Global
 - s: Script-local (like "static" in C)
