@@ -3,6 +3,8 @@ title: Go methods
 category: Golang
 ---
 
+# Go methods
+
 - Methods are just like functions
 - Method consists func keyword, the receiver arg, and the function body
 - Receiver is just a type.
