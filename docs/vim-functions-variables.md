@@ -2,6 +2,7 @@
 title: Vim functions and variables
 category: Vim
 ---
+
 # Vim
 
 Functions

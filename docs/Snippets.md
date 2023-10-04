@@ -1,6 +1,13 @@
+---
+title: Database useful queries
+category: Database
+---
+
+# Database useful queries
+
 ## Alter database, tables character set
 
-```mysql
+```sql
 ALTER DATABASE <database_name> CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -12,14 +19,6 @@ WHERE table_schema="<database_name>" AND table_type="base table";
 SET FOREIGN_KEY_CHECKS=1;
 ```
 
-## Check if command exists
-
-```bash
-if [[ ! -x "$(command -v $CMD)" ]]; then
-	echo "$CMD could not be found"
-	exit
-fi
-```
 
 ## Update foreign key
 

@@ -1,6 +1,11 @@
+---
+title: Relect in go
+category: Golang
+---
+
 # Reflect in Go
 
-This example code shows us how to extract everything from a struct.
+This example code shows us how to extract everything from a struct using [reflect](https://pkg.go.dev/reflect) package.
 
 ```go
 package main

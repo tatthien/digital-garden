@@ -1,5 +1,5 @@
 ---
-title: Axios mockk test
+title: Axios mock test
 category: JavaScript
 ---
 

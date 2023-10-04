@@ -22,6 +22,15 @@
   ]
  },
  {
+  "text": "Database",
+  "items": [
+   {
+    "text": "Database useful queries",
+    "link": "Snippets.md"
+   }
+  ]
+ },
+ {
   "text": "Devops",
   "items": [
    {
@@ -50,6 +59,10 @@
     "link": "race-condition.md"
    },
    {
+    "text": "Relect in go",
+    "link": "reflect-in-go.md"
+   },
+   {
     "text": "Why I choose go?",
     "link": "why-i-choose-go.md"
    }
@@ -59,8 +72,17 @@
   "text": "JavaScript",
   "items": [
    {
-    "text": "Axios mockk test",
+    "text": "Axios mock test",
     "link": "axios-mock-test.md"
+   }
+  ]
+ },
+ {
+  "text": "Linux",
+  "items": [
+   {
+    "text": "Linux commands",
+    "link": "linux-commands.md"
    }
   ]
  },
