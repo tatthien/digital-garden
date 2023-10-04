@@ -19,8 +19,8 @@ const sortSidebar = (
   a: DefaultTheme.SidebarItem,
   b: DefaultTheme.SidebarItem,
 ) => {
-  const textA = a.text.toLowerCase();
-  const textB = b.text.toLowerCase();
+  const textA = (a.text as string).toLowerCase();
+  const textB = (b.text as string).toLowerCase();
   if (textA < textB) return -1;
   if (textA > textB) return 1;
   return 0;
