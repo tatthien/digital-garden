@@ -28,6 +28,7 @@ const sortSidebar = (
 
 const dirs = fs.readdirSync(path.resolve(__dirname, "../docs"));
 const sidebar: Array<DefaultTheme.SidebarItem> = [];
+
 dirs.reduce((acc, curr) => {
   if (!isMarkdownFile(curr)) return acc;
 
@@ -58,9 +59,25 @@ dirs.reduce((acc, curr) => {
   return acc;
 }, sidebar);
 
+const sortedSidebar = sidebar.sort(sortSidebar);
+
 fs.writeFileSync(
   path.resolve(__dirname, "../docs", ".vitepress", "sidebar.json"),
-  JSON.stringify(sidebar.sort(sortSidebar), null, " "),
+  JSON.stringify(sortedSidebar, null, " "),
 );
 
+// Sitemap content
+let sitemap = "# Sitemap\n\n";
+sortedSidebar.forEach(({ text, items }) => {
+  sitemap += `## ${text}\n\n`;
+  items?.forEach((item) => {
+    sitemap += `- [${item.text}](${item.link})\n`;
+  });
+  sitemap += "\n";
+});
+
 console.log(">>>", "generated: sidebar.json");
+
+fs.writeFileSync(path.resolve(__dirname, "../docs", "sitemap.md"), sitemap);
+
+console.log(">>>", "generated: sitemap.md");
