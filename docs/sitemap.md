@@ -8,6 +8,7 @@
 ## CSS
 
 - [CSS line-height](css-line-height.md)
+- [Fixed table headers](fixed-table-header.md)
 
 ## Database
 

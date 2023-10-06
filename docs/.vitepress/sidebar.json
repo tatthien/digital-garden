@@ -19,6 +19,10 @@
    {
     "text": "CSS line-height",
     "link": "css-line-height.md"
+   },
+   {
+    "text": "Fixed table headers",
+    "link": "fixed-table-header.md"
    }
   ],
   "collapsed": true
